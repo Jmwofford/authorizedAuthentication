@@ -8,8 +8,8 @@
   <body>
     
 <% if @current_user%>
+ WELCOME BACK <%= @current_user%> !!!
     <h1>Login</h1>
-
     <form action= '/sessions' method="POST">
       <input type="hidden" name="authenticity_token" value=" <%= form_authenticity_token%>">
       <input type="email" name="login[email]" placeholder="email">
@@ -17,6 +17,11 @@
       <input type="submit" name="submit" class="submit">
     </form>
 <% end %>
+    
+
+Hey!!! New to Our Site? <br>
+Please Register to do Certain Shit. 
+
     <h1>Registration</h1>
 
     <form action= '/users' method="POST">

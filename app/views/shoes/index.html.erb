@@ -1,3 +1,8 @@
 
-The Currently_LoggedUser is : <h1><%= @current_user.email%></h1> 
+CurrentUser:  <h1><%= @current_user.email%></h1> 
 
+This will be a Landing Page But Should Find a way to make it a dynamic page.
+
+<%=button_to "Profile Page", sessions_path  %>
+
+<%=button_to " Sign Out of All Accounts", sessions_path("Log-out"),method: :delete %> 
