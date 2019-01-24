@@ -1,4 +1,4 @@
-index view. 
+
   <!DOCTYPE html>
 <html>
   <head>
@@ -11,7 +11,7 @@ index view.
     <form action= '/sessions' method="POST">
       <input type="hidden" name="authenticity_token" value=" <%= form_authenticity_token%>">
       <input type="email" name="login[email]" placeholder="email">
-      <input type="email" name="login[password]" placeholder="password">
+      <input type="password" name="login[password]" placeholder="password">
       <input type="submit" name="submit" class="submit">
     </form>
 
@@ -20,7 +20,7 @@ index view.
     <form action= '/users' method="POST">
       <input type="hidden" name="authenticity_token" value=" <%= form_authenticity_token%>">
       <input type="name" name="user[name]" placeholder="name">
-      <input type="email" name="login[password]" placeholder="password">
+      <input type="email" name="user[email]" placeholder="email">
       <input type="password" name="user[password]" placeholder="password">
       <input type="password" name="user[password_confirmation]" placeholder="password_confirmation">
       <input type="submit" name="submit" class="submit">

@@ -12,12 +12,12 @@ class UsersController < ApplicationController
     else
       flash[:register_errors] = user.errors.full_messages
       redirect_to '/'
+    end
   end
-
-
-
+  
   private 
+
     def user_params
-      params.rewquire(:user).permit():name, :email,:password, :password_confirmation)
+      params.require(:user).permit(:name, :email,:password, :password_confirmation)
     end
 end
