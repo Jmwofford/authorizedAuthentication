@@ -6,6 +6,8 @@
     <title>Login_Registration</title>
   </head>
   <body>
+    
+<% if @current_user%>
     <h1>Login</h1>
 
     <form action= '/sessions' method="POST">
@@ -14,7 +16,7 @@
       <input type="password" name="login[password]" placeholder="password">
       <input type="submit" name="submit" class="submit">
     </form>
-
+<% end %>
     <h1>Registration</h1>
 
     <form action= '/users' method="POST">
