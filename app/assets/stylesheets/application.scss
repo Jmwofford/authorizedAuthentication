@@ -1,8 +1,53 @@
 @import "_bootstrap";
 // @import 'bootstrap-custom';
-
+body{
+  padding:3em;
+  background-color: grey;
+}
 .parent{
   border: solid blue;
   padding:8em;
   justify-content: center;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+.child_main{
+  border: solid green;
+  margin: 5%;
+  padding:.3em;
+  justify-content: center;
+  height:22em;
+  width:12em;
+}
+.parent_main{
+  border:solid orange;
+  padding:1em;
+  display:flex;
+  justify-content: space-around;
+}
+.superContainer{
+  border: solid red;
+  padding:1em;
+}
+.logo{
+border:solid black;
+height:85px;
+margin-left:.3em;
+
+}
+.mainFlex{
+  border:solid black;
+  display:flex;
+  justify-content: space-between;
+}
+#button{
+  height:80px;
+}
+#nav_child{
+  margin-left:4.2em;
+  
+}
+#nav_child:hover{
+  margin-left:4.2em;
+  background-color:yellow;
 }
