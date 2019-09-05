@@ -1,0 +1,15 @@
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.4.5/ext/bootsnap
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190905-52200-10n6i7k.rb extconf.rb
+creating Makefile
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bootsnap-1.4.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20190905-52200-cexv8e/bootsnap

@@ -1,0 +1,19 @@
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.12/ext/mri
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190905-32613-nj05js.rb extconf.rb
+creating Makefile
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20190905-32613-1n5ke5n

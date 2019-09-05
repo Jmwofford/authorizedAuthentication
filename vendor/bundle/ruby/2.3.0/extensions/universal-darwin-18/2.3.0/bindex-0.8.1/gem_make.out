@@ -1,0 +1,15 @@
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+/System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin/ruby -r ./siteconf20190905-52200-k6hjb6.rb extconf.rb
+creating Makefile
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/babydivalpha_admin/Desktop/Dev/Pet_Projects/attempt_one/authorizedAuthentication/vendor/bundle/ruby/2.3.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20190905-52200-16si5ls/skiptrace/internal
