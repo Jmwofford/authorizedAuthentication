@@ -1,13 +1,12 @@
 @import "_bootstrap";
 // @import 'bootstrap-custom';
 body{
- 
-  background-color: beige;
-  border: solid green;
+  background-color:#343A40;
+  // border: solid red;
   border-width:.5px;
-  padding:3em;
-  margin:5pc;
-
+  padding:1em;
+  font-family:serif;
+  padding-top:5%;
 }
 .parent{
   border: solid black;
@@ -17,7 +16,7 @@ body{
   justify-content: center;
   margin-top:1em;
   margin-bottom:1em;
-  // background-color:#343A40;
+  background-color:#343A40;
   // background-image: url('https://media.giphy.com/media/3oEduY9vzp0VSk0xQA/giphy.gif');
   background-size: cover;
   width:100%;
@@ -25,27 +24,20 @@ body{
 .parent_also{
   border: solid black;
   border-width:.5px;
-  border-width:.5px;
-  padding:8em;
-  justify-content: center;
-  
-  margin-bottom:1em;
-  // background-color:#343A40;
-  // background-image:url('https://p7.hiclipart.com/preview/651/985/304/house-home-inspection-apartment-real-estate-house-thumbnail.jpg');
-  background-size: cover;
+  padding:.5em;
+  background:beige;
   width:100%;
   text-align:center;
-  font-family:serif;
   color:green;
-  margin-top:15%;
+  border-radius:10px;
+
+  margin-top:2em;
 }
 .child_main{
   border: solid green;
   border-width:.5px;
-  border-width:.5px;
   margin: 5%;
   padding:.3em;
-  justify-content: center;
   height:22em;
   width:100%;
 
@@ -67,44 +59,23 @@ body{
 }
 .logo{
 border:solid black;
-height:75px;
-margin-left:.3em;
-
+}
 .navbar{
   width:100%;
 }
 .stretcher{
   margin-right:40%;
 }
-}
 .mainFlex{
   width:100%;
-  height:2%;
-  // position:fixed;
-  display:flex;
-  
-
+  height:15%;
+  border: solid blue;
+  position:fixed;
 }
 #button{
   height:80px;
 }
-#nav_child{
-  padding:2px;
-  font-size:22px;
-  text-align:center;
-  justify-content: space-around;
-  margin:1em;
 
-  
-}
-#nav_child:hover{
-  background-color:green ;
-  border-width:.5px;
-  border-width:1px;
-  // padding:6px;
-  transition:.2s;
-  padding-top:5%;
-}
 .video{
   border:solid black;
   border-width:.5px;
@@ -129,17 +100,31 @@ margin-left:.3em;
   padding: 3%;
   text-align: center;
   width:100%;
-  margin-top:25%;
+  margin-top:2%;
+}
+.media_one{
+  border-radius:12px;
 }
 .inner_title{
-  border:solid black;
-  background:beige;
+  border:solid green;
   border-radius:10px;
+  margin:5px;
+  padding:2%;
+  width:100%;
+  background-color:#343A40;
+  color:beige;
 }
 .new_thing{
 //  width:100%;
  padding:0%;
- height:169px;
+ height:89px;
  justify-content: center; 
-
+width:120px;
+}
+#nav_child{
+  margin-left:12%;
+}
+.waist_trainer{
+  // border:solid yellow;
+  padding:2%;
 }
