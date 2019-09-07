@@ -6,7 +6,16 @@ body{
   border-width:.5px;
   padding:1em;
   font-family:serif;
+  color:beige;
   padding-top:5%;
+}
+input{
+  margin:2px;
+  border:solid green;
+  border-width:1px;
+  font-size:18px;
+  background-color:beige;
+  text-align: center;
 }
 .parent{
   border: solid black;
@@ -20,6 +29,13 @@ body{
   // background-image: url('https://media.giphy.com/media/3oEduY9vzp0VSk0xQA/giphy.gif');
   background-size: cover;
   width:100%;
+}
+.majorParent{
+  border:solid beige;
+  padding:.2em;
+  margin:2px;
+  justify-content: center;
+  display: flex;
 }
 .parent_also{
   border: solid black;
@@ -37,10 +53,11 @@ body{
   border: solid green;
   border-width:.5px;
   margin: 5%;
-  padding:.3em;
+  padding:2em;
   height:22em;
   width:100%;
-
+  // display: flex;
+  
 }
 
 .parent_main{
