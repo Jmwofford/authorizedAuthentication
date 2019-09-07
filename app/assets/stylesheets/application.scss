@@ -9,6 +9,7 @@ body{
   color:beige;
   padding-top:5%;
 }
+
 input{
   margin:2px;
   border:solid green;
@@ -52,25 +53,25 @@ input{
 .child_main{
   border: solid green;
   border-width:.5px;
-  margin: 5%;
-  padding:2em;
-  height:22em;
+  // margin:10px;
+  padding:10px;
+  // height:22em;
   width:100%;
   // display: flex;
   
 }
 
 .parent_main{
-  border:solid orange;
+  border:solid beige;
   border-width:.5px;
   padding:1em;
   display:flex;
   justify-content: space-around;
 }
 .superContainer{
-  border: solid red;
+  border: solid green;
   border-width:.5px;
-  padding:1em;
+  // padding:1em;
   width:100%;
 
 }
@@ -144,4 +145,17 @@ width:120px;
 .waist_trainer{
   // border:solid yellow;
   padding:2%;
+}
+.cal_kids{
+  border:solid black;
+  border-width:1px;
+  padding:1em;
+}
+.cal_child{
+  // display:flex;
+  padding:1em;
+}
+.cal_parent{
+  display:flex;
+  padding:1em;
 }
