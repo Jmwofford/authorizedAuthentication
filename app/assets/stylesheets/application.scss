@@ -1,53 +1,145 @@
 @import "_bootstrap";
 // @import 'bootstrap-custom';
 body{
+ 
+  background-color: beige;
+  border: solid green;
+  border-width:.5px;
   padding:3em;
-  background-color: grey;
+  margin:5pc;
+
 }
 .parent{
-  border: solid blue;
+  border: solid black;
+  border-width:.5px;
+  border-width:.5px;
   padding:8em;
   justify-content: center;
   margin-top:1em;
   margin-bottom:1em;
+  // background-color:#343A40;
+  // background-image: url('https://media.giphy.com/media/3oEduY9vzp0VSk0xQA/giphy.gif');
+  background-size: cover;
+  width:100%;
+}
+.parent_also{
+  border: solid black;
+  border-width:.5px;
+  border-width:.5px;
+  padding:8em;
+  justify-content: center;
+  
+  margin-bottom:1em;
+  // background-color:#343A40;
+  // background-image:url('https://p7.hiclipart.com/preview/651/985/304/house-home-inspection-apartment-real-estate-house-thumbnail.jpg');
+  background-size: cover;
+  width:100%;
+  text-align:center;
+  font-family:serif;
+  color:green;
+  margin-top:15%;
 }
 .child_main{
   border: solid green;
+  border-width:.5px;
+  border-width:.5px;
   margin: 5%;
   padding:.3em;
   justify-content: center;
   height:22em;
-  width:12em;
+  width:100%;
+
 }
+
 .parent_main{
   border:solid orange;
+  border-width:.5px;
   padding:1em;
   display:flex;
   justify-content: space-around;
 }
 .superContainer{
   border: solid red;
+  border-width:.5px;
   padding:1em;
+  width:100%;
+
 }
 .logo{
 border:solid black;
-height:85px;
+height:75px;
 margin-left:.3em;
 
+.navbar{
+  width:100%;
+}
+.stretcher{
+  margin-right:40%;
+}
 }
 .mainFlex{
-  border:solid black;
+  width:100%;
+  height:2%;
+  // position:fixed;
   display:flex;
-  justify-content: space-between;
+  
+
 }
 #button{
   height:80px;
 }
 #nav_child{
-  margin-left:4.2em;
+  padding:2px;
+  font-size:22px;
+  text-align:center;
+  justify-content: space-around;
+  margin:1em;
+
   
 }
 #nav_child:hover{
-  margin-left:4.2em;
-  background-color:yellow;
+  background-color:green ;
+  border-width:.5px;
+  border-width:1px;
+  // padding:6px;
+  transition:.2s;
+  padding-top:5%;
+}
+.video{
+  border:solid black;
+  border-width:.5px;
+  // width:50%;
+}
+.masterContainer{
+  padding:15pc;
+  border:solid black;
+  border-width:.5px;
+}
+.vid_element{
+  border: solid black;
+  border-width:.5px;
+  padding:5px;
+  // margin-left:30%;
+  height:100%;
+  width:100%;
+}
+#body_title{
+  // border:solid black;
+  border-width:.5px;
+  padding: 3%;
+  text-align: center;
+  width:100%;
+  margin-top:25%;
+}
+.inner_title{
+  border:solid black;
+  background:beige;
+  border-radius:10px;
+}
+.new_thing{
+//  width:100%;
+ padding:0%;
+ height:169px;
+ justify-content: center; 
+
 }
