@@ -14,9 +14,10 @@ input{
   margin:2px;
   border:solid green;
   border-width:1px;
-  font-size:18px;
+  font-size:12px;
   background-color:beige;
   text-align: center;
+  justify-content: space-between;
 }
 .parent{
   border: solid black;
@@ -119,6 +120,8 @@ border:solid black;
   text-align: center;
   width:100%;
   margin-top:2%;
+  color:beige;
+  // font-size:12px;
 }
 .media_one{
   border-radius:12px;

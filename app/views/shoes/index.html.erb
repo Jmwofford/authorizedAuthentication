@@ -1,3 +1,40 @@
-Dashboard Index
 
-This will contain the Current User info once redirected AFTER LOGIN!!!
+        <%= render "nav" %>
+
+        <div style="border:solid beige;
+                    padding:1em;
+                    margin-top:15%;">
+         
+        </div>
+        
+        <%= render "body" %>
+        <h5 style="text-align:center;"> Welcome To Your Interactive Profile Hub
+        <br><br>
+        <span class="text text-primary"> <%= @current_user.name %></span></h5>
+        <h3 style="border:solid beige;
+                    border-width:1px;
+                    padding:5px;
+                    font-size:18px;
+                    text-align:center;
+                    margin-bottom:22px;
+                    "><%= @current_user.email %> : </h3>
+
+<div class="waist_trainer">
+  <h1 id="body_title" class="text text-success"> 
+    This is Where You Tell Me How You Want To Get Involved! 
+  </h1>
+  
+  <%= render 'formRegister' %>
+
+  <h5 style="color:white;
+             border:solid white;
+             border-width:1px;
+             padding:10%;">
+
+    The standard Lorem Ipsum passage, used since the 1500s. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  </h5>
+  
+</div>
+    

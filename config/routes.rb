@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   post '/sessions'=> 'sessions#create'
   post '/users'=> 'users#create'
   get '/dashboard' => 'shoes#index'
-
+  get '/about' => 'sessions#index'
 end
